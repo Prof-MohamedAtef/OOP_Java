@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;Height&apos; in &apos;Shape&apos; to &apos;Length&apos;&#x0D;&#x0A;- Original project: &apos;Inheritance&apos;&#x0D;&#x0A;- Original element: &apos;Shape.Height&apos;&#x0D;&#x0A;- Renamed element: &apos;Shape.Length&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;Height&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{Shape.java[Shape^Height" name="Length" references="true" setter="false" stamp="1561312897331" textual="false" version="1.0"/>
+</session>
