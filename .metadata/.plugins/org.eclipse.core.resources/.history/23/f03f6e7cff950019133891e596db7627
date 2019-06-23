@@ -1,7 +1,7 @@
 
 public class SalariedEmployee extends Employee{
 	
-	static double Bonus;
+	double Bonus;
 	double Deduction;
 
 	public SalariedEmployee() {
@@ -19,7 +19,5 @@ public class SalariedEmployee extends Employee{
 	public double getSalary() {
 		return Salary+Bonus-Deduction;
 	}
-	
-	
 	
 }

@@ -18,14 +18,9 @@ public class Runner {
 		
 		Employee se1=new Employee("Mohamed", 1, "Alex","Egyptian",6000,"2","Engineer") ;
 		
-		Employee se2=new SalariedEmployee("Seif", 1, "Cairo","Egyptian",5000,"1","Doctor", 500, 250) ;
-		System.out.println(se1.getSalary());
-		System.out.println(se2.getSalary());
-		
-		Employee e3=new MostDeducted("Asmaa",1,"Cairo","Egyptian",6000,"1","Engineer",500,250);
-		System.out.println("Deduction is :"+e3.getDeduction());
-		
-		System.out.println(se2.getSalary());
+//		Employee se2=new SalariedEmployee("Seif", 1, "Cairo","Egyptian",5000,"1","Doctor", 500, 250) ;
+//		System.out.println(se1.getSalary());
+//		System.out.println(se2.getSalary());
 //		cannot instantiate SalariedEmployee
 		
 		Employee em1=new Employee("Seif", 1, "Cairo","Egyptian",5000,"1","Doctor");

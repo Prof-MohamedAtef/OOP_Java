@@ -1,0 +1,17 @@
+
+public class PartialSalary extends SalariedEmployee {
+
+	
+	public PartialSalary() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	@Override
+	public double getSalary() {
+		return Salary+Bonus-Deduction;
+	}
+	
+	
+
+}

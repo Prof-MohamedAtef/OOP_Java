@@ -1,0 +1,14 @@
+
+public class PartialSalary extends SalariedEmployee {
+
+	
+	public PartialSalary() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	public static double getSalaryPlusBonus() {
+		return Salary+Bonus;
+	}
+}

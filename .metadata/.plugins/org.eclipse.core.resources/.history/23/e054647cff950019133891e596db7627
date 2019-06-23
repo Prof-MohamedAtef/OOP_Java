@@ -1,8 +1,7 @@
 
 public class Employee extends Person {
 	
-	
-	static double Salary;
+	double Salary;
 	String Rank, Job;
 
 	public Employee() {
@@ -23,10 +22,6 @@ public class Employee extends Person {
 	
 	public double getSalary() {
 		return Salary;
-	}
-	
-	public double getDeduction() {
-		return 0;
 	}
 	
 	@Override
