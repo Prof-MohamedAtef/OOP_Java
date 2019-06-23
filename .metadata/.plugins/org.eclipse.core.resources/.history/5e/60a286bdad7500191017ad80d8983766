@@ -1,0 +1,32 @@
+package test_Proj;
+
+import java.util.Arrays;
+
+public class MergeNames {
+	
+	
+	
+	public static String[] uniqueNames(String[] first, String[] second) {
+		
+//		String names []=new String [names1.length+names2.length]  ;
+		
+		String[] both = Arrays.copyOf(first, first.length + second.length);
+		System.arraycopy(second, 0, both, first.length, second.length);
+		return both;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String [] names1=new String[] {"Ava", "Emma", "Olivia"};
+		
+		String [] names2=new String[] {"Olivia", "Sophia", "Emma"};
+		
+		System.out.println(String.join(", ", MergeNames.uniqueNames(names1, names2))); 
+		//
+		
+	}
+	
+}
+
+
