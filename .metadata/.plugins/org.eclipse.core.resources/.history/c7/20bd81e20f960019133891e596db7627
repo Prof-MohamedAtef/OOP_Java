@@ -34,14 +34,14 @@ public class Runner {
 		
 		// enumerator session
 		
-		Course c1=Course.Programming;
+		Course c1=Course.Math;
 		Course c2=Course.Database;
 		System.out.println(c1.toString());
-		System.out.println(c1.toString()+" Ordinal :"+c1.ordinal());
+		System.out.println("C1 Ordinal :"+c1.ordinal());
 		
-		System.out.println(c1.toString()+" Compare :"+c2.toString()+" :"+c1.compareTo(c2));
+		System.out.println("Compare :"+c1.compareTo(c2));
 		
-		System.out.println("Equals :"+" "+c2.equals(c1));
+		System.out.println("Equals :"+c2.equals(c1));
 		
 		
 
